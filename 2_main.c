@@ -29,7 +29,7 @@ int main()
     if(result.valid==1){
         printf("TEMP=%d HUMI=%d\n",result.temp,result.humi);
     }else{
-        printf("ERROR:Out of Range\n");
+        printf("ERROR: Out of Range\n");
     }
     return 0;
 
